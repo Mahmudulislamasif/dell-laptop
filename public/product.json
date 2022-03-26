@@ -16,7 +16,26 @@
         "name":"Dell XPS-17",
         "price":209900,
         "image":"./images/dell xp-17.jpg"
+    },
+    {
+        "id":4,
+        "name":"Dell G-5",
+        "price":110990,
+        "image":"./images/dell G-5.jpg"
+    },
+    {
+        "id":5,
+        "name":"Dell Latitude",
+        "price":30500,
+        "image":"./images/Dell Latitude.jpg"
+    },
+    {
+        "id":6,
+        "name":"Dell Latitude e-7480",
+        "price":42500,
+        "image":"./images/dell-latitude-e7480-laptop-3.jpg"
     }
+  
   
   
 ]
