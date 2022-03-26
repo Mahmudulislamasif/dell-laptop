@@ -34,6 +34,24 @@
         "name":"Dell Latitude e-7480",
         "price":42500,
         "image":"./images/dell-latitude-e7480-laptop-3.jpg"
+    },
+    {
+        "id":7,
+        "name":"Dell Latitude 7400",
+        "price":135000,
+        "image":"./images/Dell 7400.jpg"
+    },
+    {
+        "id":8,
+        "name":"Dell Inspiration",
+        "price":49500,
+        "image":"./images/Dell Inspiration.jpg"
+    },
+    {
+        "id":9,
+        "name":"Dell Inspiron",
+        "price":39500,
+        "image":"./images/Dell Inpiron.jpg"
     }
   
   
