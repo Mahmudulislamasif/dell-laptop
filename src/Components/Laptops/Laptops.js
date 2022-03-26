@@ -14,9 +14,6 @@ const Laptops = () => {
     const addInfoToBox=(product)=>{
             const newCart=[...addInfo,product]
                 setInfo(newCart)
-            
-            
-            
     }
     const deleteItems=()=>
     {
@@ -25,10 +22,11 @@ const Laptops = () => {
    
     const randomItem=(items)=>
     {
-
-        const randomIndex=Math.floor(Math.random()*items.length)
-        const selectArray=items[randomIndex]
-        setRandom(selectArray)
+            const randomIndex=Math.floor(Math.random()*items.length)
+            const selectArray=items[randomIndex]
+                setRandom(selectArray)
+                setInfo([])      
+       
     }
    
     return (
@@ -45,9 +43,10 @@ const Laptops = () => {
             }
           </div>
           <div className='btn-cart'>
+            
               <button onClick={()=>deleteItems()} className='btn-one'>Delete Items</button>
-              <h6>Select Item:{random?.name}</h6>
-              <button onClick={()=>randomItem(addInfo)} className='btn-one'>Choose Item</button>
+              <h6>{random?.name}</h6>
+              <button onClick={()=>randomItem(addInfo)} className='btn-one'>Choose One</button>
           </div>
         </div>
         </div>
