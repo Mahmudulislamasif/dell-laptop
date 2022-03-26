@@ -38,6 +38,7 @@ const Laptops = () => {
            </div>
            <div className='section-container'>
           <div className='section-details'>
+          <h5>Select Items</h5>
             {
                 addInfo.slice(0,4).map((items)=><h6 key={items.id} className='item-select'>{items.name}</h6>)
             }
