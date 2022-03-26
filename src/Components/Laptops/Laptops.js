@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Cart from '../Cart/Cart';
+
 import Laptop from '../Laptop/Laptop';
 import './Laptops.css'
 const Laptops = () => {
@@ -12,20 +12,20 @@ const Laptops = () => {
         .then(data=>setLaptops(data))
     },[])
     const addInfoToBox=(product)=>{
-          const newCart=[...addInfo,product]
-          const randomCart=Math.random(newCart.name)
-          setInfo(newCart)
-          chooseRandom(randomCart)
+            const newCart=[...addInfo,product]
+            setInfo(newCart)
     }
     const deleteItems=()=>
     {
       setInfo([])
     }
-    const chooseRandom=(randomCart)=>
-    {
-        console.log(randomCart)
-    }
    
+    const randomItem=(items)=>
+    {
+        const randoIndex=Math.floor(Math.random()*items.length)
+        const selectArray=items[randoIndex]
+        setRandom(selectArray)
+    }
    
     return (
         <div className='container content-class'>
@@ -37,14 +37,13 @@ const Laptops = () => {
            <div className='section-container'>
           <div className='section-details'>
             {
-                addInfo.map((items)=><Cart key={items.id} items={items}></Cart>)
+                addInfo.slice(0,4).map((items)=><h5>{items.name}</h5>)
             }
           </div>
           <div>
-
-              <h6>Select Items</h6>
+              <h6>Name:{random.name}</h6>
               <button onClick={()=>deleteItems()}>Delete Items</button>
-              <button onClick={()=>chooseRandom()}>Delete Items</button>
+              <button onClick={()=>randomItem(addInfo)}>Random Items</button>
           </div>
         </div>
         </div>
