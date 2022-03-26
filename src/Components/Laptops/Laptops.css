@@ -30,3 +30,12 @@
     border: none;
     background-color: orange;
 }
+@media only screen and (max-width:588px) {
+.content-class
+{
+    display: grid;
+    grid-template-columns: 5fr;
+    display: flex;
+    flex-direction: column-reverse;
+}
+}
