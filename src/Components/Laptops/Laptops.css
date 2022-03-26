@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+.content-class
+{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.section-container
+{
+    background-color: aqua;
+    margin-left: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.section-details
+{
+    text-align: start;
+    padding: 5px;
+}

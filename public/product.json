@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "name":"Dell Vosto-14",
+        "price":44000,
+        "image":"./images/Dell-Vosto-14.jpg"
+    },
+    {
+        "id":2,
+        "name":"Dell G7-15",
+        "price":176000,
+        "image":"./images/dell G7-15.jpg"
+    },
+    {
+        "id":3,
+        "name":"Dell XPS-17",
+        "price":209900,
+        "image":"./images/dell xp-17.jpg"
+    }
+  
+  
+]

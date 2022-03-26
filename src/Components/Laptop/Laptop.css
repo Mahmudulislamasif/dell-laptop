@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+.laptop-info
+{
+    background-color: azure;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-class
+{
+    background-color:orange;
+    border-radius: 5px;
+    border: none;
+}
