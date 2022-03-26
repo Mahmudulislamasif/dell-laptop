@@ -13,7 +13,6 @@ const Laptops = () => {
     },[])
     const addInfoToBox=(product)=>{
             const newCart=[...addInfo,product]
-            console.log(newCart.i)
                 setInfo(newCart)
             
             
