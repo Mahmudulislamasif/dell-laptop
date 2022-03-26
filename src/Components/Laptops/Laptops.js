@@ -37,7 +37,7 @@ const Laptops = () => {
            <div className='section-container'>
           <div className='section-details'>
             {
-                addInfo.slice(0,4).map((items)=><h5>{items.name}</h5>)
+                addInfo.slice(0,4).map((items)=><h5 key={items.id}>{items.name}</h5>)
             }
           </div>
           <div>

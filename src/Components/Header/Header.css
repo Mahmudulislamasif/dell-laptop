@@ -1,0 +1,11 @@
+*
+{
+    margin: 0;
+}
+.header-class
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}

@@ -1,9 +1,10 @@
 import React from 'react';
+import './Header.css'
 
 const Header = () => {
     return (
-        <div>
-            <h1>Laptops</h1>
+        <div className='header-class'>
+            <h1>Dell Laptops</h1>
         </div>
     );
 };
