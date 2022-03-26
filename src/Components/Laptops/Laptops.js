@@ -13,7 +13,9 @@ const Laptops = () => {
     },[])
     const addInfoToBox=(product)=>{
             const newCart=[...addInfo,product]
-            setInfo(newCart)
+                setInfo(newCart)
+            
+            
     }
     const deleteItems=()=>
     {
@@ -22,8 +24,8 @@ const Laptops = () => {
    
     const randomItem=(items)=>
     {
-        const randoIndex=Math.floor(Math.random()*items.length)
-        const selectArray=items[randoIndex]
+        const randomIndex=Math.floor(Math.random()*items.length)
+        const selectArray=items[randomIndex]
         setRandom(selectArray)
     }
    
