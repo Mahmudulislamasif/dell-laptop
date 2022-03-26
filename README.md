@@ -1,6 +1,6 @@
 
 # Dell Laptop Product
-Live site link :  (https://chic-frangipane-0d4149.netlify.app/)
+[Live site link]  (https://chic-frangipane-0d4149.netlify.app/).
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
