@@ -40,10 +40,10 @@ const Laptops = () => {
                 addInfo.slice(0,4).map((items)=><h5 key={items.id}>{items.name}</h5>)
             }
           </div>
-          <div>
-              <h6>Name:{random.name}</h6>
-              <button onClick={()=>deleteItems()}>Delete Items</button>
-              <button onClick={()=>randomItem(addInfo)}>Random Items</button>
+          <div className='btn-cart'>
+              <button onClick={()=>deleteItems()} className='btn-one'>Delete Items</button>
+              <h6>Select Item:{random.name}</h6>
+              <button onClick={()=>randomItem(addInfo)} className='btn-one'>Choose Item</button>
           </div>
         </div>
         </div>
